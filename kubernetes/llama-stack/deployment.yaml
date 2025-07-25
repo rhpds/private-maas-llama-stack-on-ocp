@@ -49,9 +49,9 @@ spec:
             - name: LLAMA3B_MODEL
               value: llama32-3b
             - name: GRANITE_URL
-              value: 'https://granite32-8b.llama-serve.svc.cluster.local/v1'
+              value: 'http://granite-3dot2-8b-instruct-predictor.llm-hosting.svc.cluster.local/v1'
             - name: GRANITE_MODEL
-              value: granite32-8b
+              value: granite-3dot2-8b-instruct
             - name: VLLM_API_TOKEN
               value: fake
             - name: CUSTOM_TIKTOKEN_CACHE_DIR
